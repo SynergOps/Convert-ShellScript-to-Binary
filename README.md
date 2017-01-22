@@ -37,14 +37,14 @@ See CHANGES file
 Install required packages for SHC compiler.
 For Debian/Ubuntu
 
-'''
-$ apt-get install libc6-dev 
+'''sh
+apt-get install libc6-dev 
 '''
 
 For RHEL/CentOS
 
-'''
-$ yum install glibc-devel
+'''sh
+yum install glibc-devel
 '''
 
 ### Building
@@ -52,18 +52,18 @@ $ yum install glibc-devel
 Download the latest source code of SHC compiler
 Now compile the SHC source code on your system and install it using following command.
 
-'''
-$ cd shc-3.8.9
-$ make 
-$ make install
+'''sh
+cd shc-3.8.9
+make 
+make install
 '''
 
 ### Create binary
 
 Use following command to create binary file of your script.sh
 
-'''
-$ shc -T -f script.sh
+'''sh
+shc -T -f script.sh
 '''
 
 ## OPTIONS
