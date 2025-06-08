@@ -1,4 +1,4 @@
-# SHC: Shell script to Binary converter
+ # SHC: Shell script to Binary converter
 
 ### Purpose:
 
@@ -70,31 +70,31 @@ shc -T -f script.sh
 
 The command line options are:
 
--e date
+- -e date
     Expiration date in dd/mm/yyyy format [none] 
--m message
+- -m message
     message to display upon expiration ["Please contact your provider"] 
--f script_name
+- -f script_name
     File name of the script to compile 
--i inline_option
+- -i inline_option
     Inline option for the shell interpreter i.e: -e 
--x comand
+- -x comand
     eXec command, as a printf format i.e: exec(\\'%s\\',@ARGV); 
--l last_option
+- -l last_option
     Last shell option i.e: -- 
--r
+- -r
     Relax security. Make a redistributable binary which executes on different systems running the same operating system. 
--v
+- -v
     Verbose compilation 
--D
+- -D
     Switch on debug exec calls 
--T
+- -T
     Allow binary to be traceable (using strace, ptrace, truss, etc.) 
--C
+- -C
     Display license and exit 
--A
+- -A
     Display abstract and exit 
--h
+- -h
     Display help and exit 
 
 
